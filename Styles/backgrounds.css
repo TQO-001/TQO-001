@@ -1,0 +1,111 @@
+/* From Uiverse.io by marcelodolza */ 
+.container {
+    width: 100%;
+    height: 100%;
+    --s: 100px; /* control the size */
+    --c1: #f8b195;
+    --c2: darkslateblue;
+
+    --_g: var(--c2) 4% 14%, var(--c1) 14% 24%, var(--c2) 22% 34%,
+      var(--c1) 34% 44%, var(--c2) 44% 56%, var(--c1) 56% 66%, var(--c2) 66% 76%,
+      var(--c1) 76% 86%, var(--c2) 86% 96%;
+    background: radial-gradient(
+        100% 100% at 100% 0,
+        var(--c1) 4%,
+        var(--_g),
+        #0008 96%,
+        #0000
+      ),
+      radial-gradient(
+          100% 100% at 0 100%,
+          #0000,
+          #0008 4%,
+          var(--_g),
+          var(--c1) 96%
+        )
+        var(--c1);
+    background-size: var(--s) var(--s);
+
+    /* Make sure content inside isn't affected by the overlay */
+    position: relative;
+    z-index: 1;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6); /* White background with 50% opacity */
+    z-index: -1; /* Make sure the overlay is behind the content */
+}
+
+/* From Uiverse.io by uiverse-astronaut */ 
+.container-1 {
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#ff6347 10%, transparent 10%),
+                        radial-gradient(#444cf7 10%, transparent 10%);
+    background-size: 100px 100px;
+    background-position: 0 0, 50px 50px;
+
+    /* Make sure content inside isn't affected by the overlay */
+    position: relative;
+    z-index: 1;
+  }
+
+.container-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6); /* White background with 50% opacity */
+    z-index: -1; /* Make sure the overlay is behind the content */
+}
+
+/* From Uiverse.io by csemszepp */ 
+.container-2 {
+    width: 100%;
+    height: 100%;
+    --s: 194px; /* control the size */
+    --c1: #e9e9e9;
+    --c2: darkslateblue;
+  
+    --_l: #0000 calc(25% / 3), var(--c1) 0 25%, #0000 0;
+    --_g: conic-gradient(from 120deg at 50% 87.5%, var(--c1) 120deg, #0000 0);
+  
+    background: var(--_g), var(--_g) 0 calc(var(--s) / 2),
+      conic-gradient(from 180deg at 75%, var(--c2) 60deg, #0000 0),
+      conic-gradient(from 60deg at 75% 75%, var(--c1) 0 60deg, #0000 0),
+      linear-gradient(150deg, var(--_l)) 0 calc(var(--s) / 2),
+      conic-gradient(
+        at 25% 25%,
+        #0000 50%,
+        var(--c2) 0 240deg,
+        var(--c1) 0 300deg,
+        var(--c2) 0
+      ),
+      linear-gradient(-150deg, var(--_l)) #ff6347 /* third color here */;
+    background-size: calc(0.866 * var(--s)) var(--s);
+
+    /* Make sure content inside isn't affected by the overlay */
+    position: relative;
+    z-index: 1;
+}
+  
+.container-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6); /* White background with 50% opacity */
+    z-index: -1; /* Make sure the overlay is behind the content */
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Notes</title>
+    <link rel="stylesheet" href="../Styles/Styles.css">
+    <link rel="stylesheet" href="../Styles/learn.css">
+    <link rel="stylesheet" href="../Styles/backgrounds.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="sidenav">
+                <li><a class="nav-item" href="../index.html">Home</a></li>
+                <li><a class="nav-item" href="about.html">About</a></li>
+                <li><a class="nav-item active" href="learn.html">Learn</a></li>
+                <li><a class="nav-item" href="resources.html">Resources</a></li>
+                <li><a class="nav-item" href="workspace.html">Workspace</a></li>
+                <li><a class="nav-item" href="simulation.html">Simulation</a></li>
+            </ul>
+        </nav>
+        <div class="empty-2"></div>
+
+    </header>
+
+    <main class="container-2">    
+        <h1>My Markdown Notes</h1>
+
+        <section class="dropdown">
+            <!-- Dropdown for choosing the Markdown file -->
+            <label for="mdFiles">Choose your notes:</label>
+            <select id="mdFiles">
+                <option value="../Markdown/0x0%20-%20Basics%20Of%20Computer%20Networking/README.md" data-title="Basics of Computer Networking" data-color-scheme="scheme1">Basics of Computer Networking</option>
+                <option value="../Markdown/0x1%20-%20Topologies/README.md" data-title="Topologies" data-color-scheme="scheme2">Topologies</option>
+                <option value="../Markdown/0x2%20-%20OSI%20Model%20&%20Commonly%20Used%20Protocols/README.md" data-title="OSI Model & Protocols" data-color-scheme="scheme3">OSI Model & Protocols</option>
+                <option value="../Markdown/0x3%20-%20Meet%20to%20IP%20World/README.md" data-title="Meet to IP World" data-color-scheme="scheme4">Meet to IP World</option>
+                <option value="../Markdown/0x4%20-%20Subnet%20Mask%20Calculate%20&%20Subnetting/README.md" data-title="Subnet Mask & Subnetting" data-color-scheme="scheme1">Subnet Mask & Subnetting</option>
+                <option value="../Markdown/0x5%20-%20Router%20&%20Switch%20Configuration/README.md" data-title="Router & Switch Configuration" data-color-scheme="scheme2">Router & Switch Configuration</option>
+                <option value="../Markdown/0x6%20-%20Router%20Components/README.md" data-title="Router Components" data-color-scheme="scheme3">Router Components</option>
+                <option value="../Markdown/0x7%20-%20Static%20&%20Default%20Routing/README.md" data-title="Static & Default Routing" data-color-scheme="scheme4">Static & Default Routing</option>
+                <option value="../Markdown/0x8%20-%20Dynamic%20Routing/README.md" data-title="Dynamic Routing" data-color-scheme="scheme1">Dynamic Routing</option>
+                <option value="../Markdown/0x9%20-%20VLANs/README.md" data-title="VLANs" data-color-scheme="scheme2">VLANs</option>
+                <option value="../Markdown/1x0%20-%20Broadcast%20&%20Collision%20Domain/README.md" data-title="Broadcast & Collision Domain" data-color-scheme="scheme3">Broadcast & Collision Domain</option>
+                <option value="../Markdown/1x1%20-%20Access%20Control%20Lists/README.md" data-title="Access Control Lists" data-color-scheme="scheme4">Access Control Lists</option>
+                <option value="../Markdown/1x2%20-%20NAT/README.md" data-title="NAT" data-color-scheme="scheme1">NAT</option>
+                <option value="../Markdown/1x3%20-%20Network%20Security%20Devices/README.md" data-title="Network Security Devices" data-color-scheme="scheme2">Network Security Devices</option>
+                <option value="../Markdown/1x4%20-%20Software%20Defined%20Networking/README.md" data-title="Software Defined Networking" data-color-scheme="scheme3">Software Defined Networking</option>
+                <option value="../Markdown/1x5%20-%20VPN%20&%20IPSec/README.md" data-title="VPN & IPSec" data-color-scheme="scheme4">VPN & IPSec</option>
+            </select>
+        </section>
+
+        <section class="notes"> 
+            <div class="card">
+                <!-- Dynamic title will be updated here -->
+                <div class="head">[Select a file to view]</div>
+                <div class="content" id="content">
+                </div>
+            </div>
+        </section>
+
+        <div class="empty"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Thulani Langa's <br>Networking Education Platform. <br>All rights reserved.</p>
+    </footer>
+
+    <!-- Include marked.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        // Function to fetch and render the selected markdown file
+        function loadMarkdown(filePath, title, colorScheme) {
+            fetch(filePath)
+                .then(response => response.text())
+                .then(markdown => {
+                    // Convert markdown to HTML
+                    let html = marked.parse(markdown);
+                    
+                    // Adjust image paths (ensure 'sources' is in the same folder as the markdown file)
+                    html = html.replace(/src="\.\.\/([^\"]+)"/g, (match, srcPath) => {
+                        return `src="${srcPath}"`; // Keep images relative, correct path handling here
+                    });
+                    
+                    // Display HTML content
+                    document.getElementById('content').innerHTML = html;
+
+                    // Change the color scheme dynamically
+                    const contentElement = document.getElementById('content');
+                    contentElement.className = ''; // Remove previous color scheme
+                    contentElement.classList.add(colorScheme); // Add new color scheme
+
+                    // Update the page title dynamically
+                    document.title = `Your Notes - ${title}`;
+                    
+                    // Update the header to reflect the selected title
+                    document.querySelector('.head').innerText = title;
+                })
+                .catch(err => {
+                    console.error('Error loading the markdown file:', err);
+                    document.getElementById('content').innerHTML = '<p>Failed to load the markdown file.</p>';
+                });
+        }
+
+        // Event listener for dropdown selection
+        document.getElementById('mdFiles').addEventListener('change', function() {
+            const selectedFile = this.value;
+            const title = this.options[this.selectedIndex].getAttribute('data-title'); // Get the title from data-title attribute
+            const colorScheme = this.options[this.selectedIndex].getAttribute('data-color-scheme'); // Get the color scheme
+            loadMarkdown(selectedFile, title, colorScheme); // Load the selected file with the correct title and color scheme
+        });
+
+        // Load the default markdown file (the first one in the dropdown)
+        const defaultFile = document.getElementById('mdFiles').value;
+        const defaultTitle = document.getElementById('mdFiles').options[0].getAttribute('data-title');
+        const defaultColorScheme = document.getElementById('mdFiles').options[0].getAttribute('data-color-scheme');
+        loadMarkdown(defaultFile, defaultTitle, defaultColorScheme);
+    </script>
+</body>
+</html>
