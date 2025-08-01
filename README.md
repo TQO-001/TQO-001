@@ -1,106 +1,167 @@
-# Hi, I'm [Thulani Langa](https://github.com/TQO-001) 👋
-
-### An I.T Engineer
-
----
+# 👋 Hi, my potato
 
 <div align="center">
-  <a href="#" style="background-color: #7C3AED; color: white; padding: 15px 30px; border-radius: 30px; font-size: 1.2em; text-decoration: none; cursor: pointer; transition: all 0.3s ease-in-out; box-shadow: 0 4px 8px rgba(124, 58, 237, 0.5);" target="_blank" rel="noreferrer">
-    Development Portfolio
-  </a>
-  <a href="#" style="background-color: #7C3AED; color: white; padding: 15px 30px; border-radius: 30px; font-size: 1.2em; text-decoration: none; cursor: pointer; transition: all 0.3s ease-in-out; box-shadow: 0 4px 8px rgba(124, 58, 237, 0.5);" target="_blank" rel="noreferrer">
-    Networking Portfolio
-  </a>
+  
+  <!-- Animated Header -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=I'm+Thulani+Langa+%F0%9F%9A%80;Full-Stack+Developer+%26+Network+Technician;CCNA+in+Progress!" alt="Typing SVG" />
+  
+  <!-- Action Buttons -->
+  <div style="margin: 30px 0;">
+    <a href="#" style="margin: 0 10px;">
+      <img src="https://img.shields.io/badge/🚀_Development_Portfolio-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Development Portfolio"/>
+    </a>
+    <a href="#" style="margin: 0 10px;">
+      <img src="https://img.shields.io/badge/🌐_Networking_Portfolio-EC4899?style=for-the-badge&logo=network-wired&logoColor=white" alt="Networking Portfolio"/>
+    </a>
+  </div>
+
 </div>
 
 ---
 
-## 💫 About Me:
-I'm **Thulani Langa**, a Full-Stack developer and Network Technician, specializing in Front-End Development and a tech enthusiast currently studying for the CCNA: Routing and Switching certification.
+## 🎯 About Me
 
-- 🔭 I’m currently working on sharpening my skills.
-- 👯 I’m looking to collaborate on a team project to enhance my teamwork and problem-solving skills.
-- 🌱 Currently diving into **Vanilla JavaScript**, aiming to build dynamic and interactive web applications.
-- 💬 Ask me about **NOTHING** unless it's about money. Just kidding (kinda), ask me about anything relevant.
+```javascript
+const thulani = {
+    pronouns: "Lord/Your Majesty/His Majesty",
+    code: ["JavaScript", "Python", "C++", "C#", "SQL"],
+    askMeAbout: ["Web Dev", "Networking", "Sprint Training", "Tech Innovation"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "React Native", "Vanilla JS"],
+            css: ["CSS3", "Tailwind", "Bootstrap"]
+        },
+        backEnd: {
+            js: ["Node.js", "Express"],
+            python: ["Flask", "Django"],
+            databases: ["MongoDB", "SQL Server"]
+        },
+        networking: ["CCNA R&S", "Network Troubleshooting", "Azure"],
+        tools: ["Git", "VS Code", "Visual Studio", "Obsidian"]
+    },
+    currentGoals: ["Master Vanilla JavaScript", "Obtain CCNA Certification"]
+};
+```
 
-⚡ **Fun fact**: I'm on a mission to break the **100m sprint world record** and become the fastest man alive.
+<div align="center">
+
+### **I strive to excel at my job, so my paycheck reflects that!**
+*"If we believe in nothing, if nothing has any meaning and if we can affirm no values whatsoever, then everything is possible and nothing has any importance."*
+
+</div>
 
 ---
 
-### Watch out, Olympics 2028!
+## 🚀 Current Mission
+
+<div align="center">
+  
+  🔭 **Building:** Next-level web applications with JavaScript  
+  👯 **Seeking:** Collaborative team projects to level up problem-solving skills  
+  🌱 **Learning:** CCNA Routing & Switching + Advanced JavaScript patterns  
+  💬 **Ask me about:** Literally anything anime related
+
+</div>
 
 ---
 
-## 💼 Languages and Tools:
+## 💻 Tech Arsenal
 
-<p align="center">
-  <a href="https://www.w3.org/html/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/>
-  </a>
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="python" width="50" height="50"/>
-  </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/>
-  </a>
-  <a href="https://www.w3schools.com/cs/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="csharp" width="50" height="50"/>
-  </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="50" height="50"/>
-  </a>
-  <a href="https://reactnative.dev/" target="_blank">
-    <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="50" height="50"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/>
-  </a>
-  <a href="https://nodejs.org" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="50" height="50"/>
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" alt="git" width="50" height="50"/>
-  </a>
-  <a href="https://code.visualstudio.com/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" alt="vscode" width="50" height="50"/>
-  </a>
-  <a href="https://visualstudio.microsoft.com/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original-wordmark.svg" alt="vs" width="50" height="50"/>
-  </a>
-  <a href="https://obsidian.md/" target="_blank">
-    <img src="https://simpleicons.org/icons/obsidian.svg" alt="obsidian" width="50" height="50" style="filter: invert(22%) sepia(99%) saturate(5437%) hue-rotate(261deg) brightness(91%) contrast(102%);"/>
-  </a>
-  <a href="https://www.wxwidgets.org/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/WxWidgets.svg" alt="wx_widgets" width="50" height="50"/>
-  </a>
-  <a href="https://azure.microsoft.com/en-in/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" alt="azure" width="50" height="50"/>
-  </a>
+<div align="center">
+
+### 🎨 Frontend Mastery
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" />
 </p>
 
+### ⚙️ Backend Power
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,python,cs,cpp,mongodb,mysql" />
+</p>
+
+### 🛠️ Tools & Platforms
+<p>
+  <img src="https://skillicons.dev/icons?i=git,vscode,visualstudio,azure,obsidian" />
+</p>
+
+### 🌐 Network Engineering
+<p>
+  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CCNA-0052CC?style=for-the-badge&logo=cisco&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Network_Security-FF6B35?style=for-the-badge&logo=security&logoColor=white"/>
+</p>
+
+</div>
+
 ---
 
-## 📊 GitHub Stats:
+## 📈 GitHub Analytics
 
-![Thulani's GitHub Stats](https://github-readme-stats.vercel.app/api?username=TQO-001&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![Thulani's Streak Stats](https://nirzak-streak-stats.vercel.app/?user=TQO-001&theme=dark&hide_border=false)<br/>
-![Thulani's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TQO-001&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<div align="center">
+  
+  <!-- GitHub Stats Cards -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TQO-001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TQO-001&layout=compact&theme=tokyonight&hide_border=true" />
+  
+  <!-- Streak Stats -->
+  <img src="https://nirzak-streak-stats.vercel.app/?user=TQO-001&theme=tokyonight&hide_border=true" />
+  
+  <!-- Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TQO-001&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" />
+
+</div>
 
 ---
 
-## 🌟 Featured Projects:
-### `Error 404`
+## 🏆 Achievements & Trophies
+
+<div align="center">
+  
+  <img src="https://github-profile-trophy.vercel.app/?username=TQO-001&theme=tokyonight&no-frame=true&row=1&column=6" />
+  
+</div>
+
 ---
 
-### Connect with me:
-- 💬 Feel free to reach out via GitHub discussions or issues.
-- 📧 Email: thulanilanga001@gmail.com
+## 🌟 Featured Projects
+
+<div align="center">
+
+### 🚧 `Coming Soon - Error 404 No More!` 🚧
+
+*Stay tuned for some mind-blowing projects that will redefine awesome!*
+
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="300"/>
+
+</div>
+
+---
+
+## 📫 Let's Connect & Collaborate
+
+<div align="center">
+  
+  <a href="mailto:thulanilanga001@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://github.com/TQO-001">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white"/>
+  </a>
+
+</div>
+
+---
+
+<div align="center">
+  
+  ### 💭 *"Building the future, one commit at a time"*
+  
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I am okay with connecting with different people</b> so if you want to say <b>hi, I'll be neutral to knowing you more!</b> 😊</em>
+
+</div>
