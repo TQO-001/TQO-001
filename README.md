@@ -29,12 +29,12 @@ const thulani = {
     technologies: {
         frontEnd: {
             js: ["React", "React Native", "Vanilla JS"],
-            css: ["CSS3", "Tailwind", "Bootstrap"]
+            css: ["CSS3"]
         },
         backEnd: {
             js: ["Node.js", "Express"],
-            python: ["Flask", "Django"],
-            databases: ["MongoDB", "SQL Server"]
+            python: ["SQLite3"],
+            databases: ["SQL Server"]
         },
         networking: ["CCNA R&S", "Network Troubleshooting", "Azure"],
         tools: ["Git", "VS Code", "Visual Studio", "Obsidian"]
@@ -54,7 +54,7 @@ const thulani = {
 
 ## 🚀 Current Mission
 
-<div align="center">
+<div align="center" style="backgound: #fff;">
   
   🔭 **Building:** Next-level web applications with JavaScript  
   👯 **Seeking:** Collaborative team projects to level up problem-solving skills  
@@ -71,12 +71,12 @@ const thulani = {
 
 ### 🎨 Frontend Mastery
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react" />
 </p>
 
 ### ⚙️ Backend Power
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,python,cs,cpp,mongodb,mysql" />
+  <img src="https://skillicons.dev/icons?i=nodejs,python,cs,cpp,sqlite" />
 </p>
 
 ### 🛠️ Tools & Platforms
@@ -91,34 +91,6 @@ const thulani = {
   <img src="https://img.shields.io/badge/Network_Security-FF6B35?style=for-the-badge&logo=security&logoColor=white"/>
 </p>
 
-</div>
-
----
-
-## 📈 GitHub Analytics
-
-<div align="center">
-  
-  <!-- GitHub Stats Cards -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TQO-001&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TQO-001&layout=compact&theme=tokyonight&hide_border=true" />
-  
-  <!-- Streak Stats -->
-  <img src="https://nirzak-streak-stats.vercel.app/?user=TQO-001&theme=tokyonight&hide_border=true" />
-  
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TQO-001&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" />
-
-</div>
-
----
-
-## 🏆 Achievements & Trophies
-
-<div align="center">
-  
-  <img src="https://github-profile-trophy.vercel.app/?username=TQO-001&theme=tokyonight&no-frame=true&row=1&column=6" />
-  
 </div>
 
 ---
