@@ -97,15 +97,18 @@ const thulani = {
 
 ## 🌟 Featured Projects
 
-<div align="center">
+### 📚 Student Manager App  
 
-### 🚧 `Coming Soon - Error 404 No More!` 🚧
+> A full-stack student management system designed to streamline academic operations. With a focus on simplicity and usability, this app lets institutions or instructors easily manage student data, view class schedules, track courses, and communicate — all from one platform.
 
-*Stay tuned for some mind-blowing projects that will redefine awesome!*
-
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="300"/>
-
-</div>
+<p align="center">
+  <img src="./images/Student Manager/home.jpg" alt="Home" width="100"/>
+  <img src="./images/Student Manager/login.jpg" alt="Login" width="100"/>
+  <img src="./images/Student Manager/courses.jpg" alt="Courses" width="100"/>
+  <img src="./images/Student Manager/messages.jpg" alt="Messages" width="100"/>
+  <img src="./images/Student Manager/profile.jpg" alt="Profile" width="100"/>
+  <img src="./images/Student Manager/schedule.jpg" alt="Schedule" width="100"/>
+</p>
 
 ---
 
